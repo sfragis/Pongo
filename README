@@ -1,7 +1,7 @@
 Pongo is a minimal DSL that helps you to convert Java objects from one type to another.
 
 Pongo doesn't convert objects by itself, it just organize things better.
-Specifying how objects have to be converted it's up to the developer.
+Specifying how objects have to be converted is up to the developer.
 
 Usage
 -----
@@ -24,7 +24,7 @@ When converting lists or arrays you can make use of filters like this:
 
     Y[] arrayOfY = pongo.convert(arrayOfX).iff(Pongo.NOT_NULL).toArrayOf(Y.class);
 
-This will tell Pongo not to convert elements of arrayOfX that are null.
+This will tell Pongo not to attempt to convert elements of arrayOfX that are null.
 
 Configuration
 -------------
