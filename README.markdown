@@ -78,7 +78,7 @@ Not that I don't appreciate existing approaches (http://stackoverflow.com/questi
 - yes writing conversion methods is very boring but it's also simple in most cases (at least most of those I run into)
 - avoiding reflection can improve performance
 - I wanted the compiler to clearly inform me whenever a conversion method is broken because a signature is changed
-- I personally dislike XML (and person that like it in particular)
+- I personally dislike XML (and people that like it in particular)
 - I needed to find a readable/elegant way (at least more readable/elegant than writing tons of static methods) to declare how conversions should take place
 - I wanted full control over conversion methods
 
