@@ -1,3 +1,6 @@
+About Pongo
+===========
+
 Pongo is a minimal DSL that helps you to convert Java objects from one type to another.
 
 Pongo doesn't convert objects by itself, it just organize things better.
@@ -71,7 +74,8 @@ This way you can chain several conversion like this:
 Motivations
 -----------
 Not that I don't appreciate existing approaches (http://stackoverflow.com/questions/1432764/any-tool-for-java-object-to-object-mapping) but:
-- yes, writing conversion methods is very boring but it's also simple in most cases (at least most of those I run into)
+
+- yes writing conversion methods is very boring but it's also simple in most cases (at least most of those I run into)
 - avoiding reflection can improve performance
 - I wanted the compiler to clearly inform me whenever a conversion method is broken because a signature is changed
 - I personally dislike XML (and person that like it in particular)
